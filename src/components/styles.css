@@ -1,0 +1,160 @@
+header {
+    background-color: rgb(73, 163, 193);
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(73, 163, 193);
+}
+
+/* Section */
+.s1 {
+    background: white;
+    padding: 5%;
+    display: flex;
+    color: black;
+    min-height: 400px;
+}
+
+.s1 > div {
+    flex-basis: 50%;
+}
+
+.s1 img {
+    width: 80%;
+    height: 100%;
+}
+
+/* Doctor container */
+.doctorcontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 40px;
+    background-color: white;
+    min-height: 500px;
+}
+
+/* Doctor images */
+.doctorcontainer img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    padding: 0;
+    border: 2px solid black;
+    display: block;
+}
+
+/* Doctor name */
+.doctorcontainer h1 {
+    color: black;
+    font-size: 32px;
+    margin: 15px 0 10px;
+    line-height: 1.2;
+}
+
+/* Doctor details */
+.doctorcontainer p {
+    color: black;
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+/* Add Doctor */
+.addnewdoctor {
+    background-color: white;
+    color: black;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.addnewdoctor h1 {
+    color: black;
+    margin-bottom: 25px;
+}
+
+.addnewdoctor form {
+    width: 500px;
+    margin: auto;
+    border: 2px;
+    padding: 3%;
+    height: 500px;
+    background-color: rgb(73, 163, 193);
+    border-radius: 10px;
+}
+
+.addnewdoctor form div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.addnewdoctor input,
+.addnewdoctor select {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+
+.addnewdoctor input:focus,
+.addnewdoctor select:focus {
+    outline: none;
+    border: 2px solid rgb(73, 163, 193);
+}
+
+.addnewdoctor button {
+    width: 150px;
+    padding: 12px;
+    margin: 15px auto 0;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.card {
+    width: 200px;
+    padding: 20px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    padding: 0;
+    border: 2px solid black;
+    display: block;
+}
+
+.card h1 {
+    color: black;
+    font-size: 32px;
+    margin: 15px 0 10px;
+    line-height: 1.2;
+}
+
+.card p {
+    color: black;
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.card button {
+    background-color: rgb(73, 163, 193);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
